@@ -3,35 +3,81 @@
 <head> <!-- Contém metadados e conexões para o CC e JS-->
     <meta charset="UTF-8"><!--Configura o suporte para diferentes acentuações, símbolos e caracteres especiais de diversos idiomas-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Adequa a nossa página web a diferentes tamanhos de dispositivos-->
+    
     <title>Praias do Brasil</title><!--Define o título que vai aparecer na aba do navegador-->
+
+<link rel="stylesheet" href="style.css">
+
 </head><!-- Fim do comando head-->
 <body><!-- Início do corpo do nosso site aqui conterá todo o conteúdo , texto, imagens, vídeos, audios, tabelas, listas e tudo o que quisermos mostrar ao nosso usuário-->
+
+    
+    <div class="ladoalado2">
+        <div>
+            <div style=""width: 100px; height: 80 px>
+             </div>
+    <img id="logo" src="logo.png" alt="Logo da Turismo Praias">
+        </div>
+        <div>
     <menu> <!--Esse comando é utilizado para criar um menu interativo no site.  -->
-        <menu> <!-- Cada tag a é um item do nosso Menu-->
-            <a href="#inicio">Home</a>   
-            <a href="#Jericoacoara">Jericoacoara</a>
-            <a href="#Praia_do_Sancho">Praia_do_Sancho</a>
-            <a href="#Praia_do_Forno">Praia_do_Forno</a>
-            <a href="#Praia_do_Patacho">Praia_do_Patacho</a>
-            <a href="#Praia_de_Antunes">Praia_de_Antunes</a>
-            <a href="#CuidadosVerao">CuidadosVerao</a>
-            <a href="#CuidadoCriancas">CuidadoCriancas</a>
-            <a href="#CompreViagem">CompreViagem</a>
-            <a 
+        <menu id="barraDeNavegacao"> <!-- Cada tag a é um item do nosso Menu-->
+            <a class="menu-item" href="#inicio">Home</a>   
+            <a class="menu-item"  href="#Jericoacoara">Jericoacoara</a>
+            <a class="menu-item"  href="#Praia_do_Sancho">Praia_do_Sancho</a>
+            <a class="menu-item"  href="#Praia_do_Forno">Praia_do_Forno</a>
+            <a class="menu-item"  href="#Praia_do_Patacho">Praia_do_Patacho</a>
+            <a class="menu-item"  href="#Praia_de_Antunes">Praia_de_Antunes</a>
+            <a class="menu-item"  href="#CuidadosVerao">CuidadosVerao</a>
+            <a class="menu-item"  href="#CuidadoCriancas">CuidadoCriancas</a>
+            <a class="menu-item"  href="#CompreViagem">CompreViagem</a>
+            <a class="menu-item"  
             href="#criadores">Criador do Site</a>
 
+        </div>
         </menu>
-    </menu>
+        </div>
+       <br>
     
-    
+
+       
+
+
+
     <section id="inicio">
     <h1><u>Praias do Brasil </u> </h1>   <!--Inclusão do título Praias do Brasil na tag de tamanho de letra h1, onde o código 1 representa a importância do tamanho do título. Esta tag é uma tag com conteúdo, pois existe um colchete angular de abertura e um colchete angular com traço inclinado (/) de fechamento. Para incluí-lo, é possível somente digitar h1 e dar <enter>. -->
         <p>O Brasil é conhecido como um dos países tropicais conhecido pelas suas praias mais bonitas e lindas do planeta Terra. Confira as melhores praias para esee verão. São praias com água cristalina, areia fina e branca, algumas delas com coqueiros. </p><!--A tag p também é uma tag com conteúdo. Esta tag representa a inserção de um parágrafo. -->
-    </section>
 
-        <section id="Jericoacoara"> 
+        
+    </section>
+    
+
+
+
+    
+
+      
+        
+
+         
+            
+        <div class="container">
+            <div class="titulo">
+
+                    
+
+             <section >   
             <h2><i>Jericoacoara</i></h2>
+            </div>           
+                
+            <div class="op1">
+                    <div class="col-md-12">
+                    </div>
+            
             <img src="Jericoacoara.png" alt="Imagem da Pedra Furada da praia de Jericoacoara"> <!--Comando para inserir uma imagem no site. O atributo src é para inserir o link da imagem direto da internet, o caminho da imagem da pasta da imagem no nosso computador ou o endereço da imagem, o atributo alt é um atributo de acessibilidade, nele deve conter a descrição da imagem. O alt é um recurso de acessibilidade. Para um deficiente visual, é necessário colocas ou descrever a imagem em alt = -->
+            
+                </div>
+                <div class="op2">
+
             <p>Jericoacoara é uma praia localizada na vila homônima, no município de Jijoca de Jericoacoara, no estado do Ceará, no Brasil. Está localizada a 295 km a oeste da capital do estado, Fortaleza. Foi eleita em 1994 pelo jornal estadunidense <b>The Washington Post</b> uma das dez praias mais bonitas do planeta.Em <b>2014</b>, foi eleita pelo <b>Huffington Post </b> a quarta melhor praia da Terra.É um dos locais mais frequentados por <b>praticantes de windsurfe</b> no país. A praia é parte integrante do Parque Nacional de Jericoacoara.</p>
             <h4>Atrações:</h4>
             <ul> <!-- Comando cria uma lista não numerada--> 
@@ -42,7 +88,15 @@
                 <li>Farol de Jericoacoara</li>
                 <li>Campo das dunas</li>
             </ul>
+         
+            
+            
         </section><!-- Delimita uma seção do nosso texto. Por exemplo, aqui inserimos a seção somente sobre a praia de Jericoacoara. Como identificar que esta seção é sobre a praia de Jericoacoara. Tenho que inserir um ID para identificar esta seção. O ID/id é o atributo que criamos para cada elemento a fim de torná-lo único e conseguirmos identificá-lo posteriormente.  -->
+        
+            </div>
+        </div>  
+          
+
         
         <section id="Praia_do_Sancho"> 
             <h2><i>Praia do Sancho</i></h2>
@@ -177,7 +231,7 @@
                 </p>
             </section>
             <!-- Abaixo temos uma forma de incorporação de vídeos que estão em outras plataformas dentro do noso site. Por meio do comando iframe, que encontramos pronto nas opções de compartilhar do YouTube-->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n4Enk2xd0r4?si=aKgy2LLfue95pFEV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560"height="315" src="https://www.youtube.com/embed/n4Enk2xd0r4?si=aKgy2LLfue95pFEV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <section id="CuidadoCriancas">
                 <p>Levar as crianças para a praia no verão é uma ótima maneira de aproveitar o sol e o mar, mas é importante seguir alguns cuidados para garantir a segurança e o bem-estas dos pequenos. </p>
@@ -211,6 +265,20 @@
 
 
              </section>
+
+             <br>
+             <hr>
+             <br>
+             <center> ____________________________________________</center>
+         
+         <section>
+             <center>
+             <h2> Deixe seu depoimento</h2>
+             <h4> Sua opinião é muito importante para nós</h4>
+             <textarea style="width: 500px; height: 100px;"
+             placeholder="Escreva seu comentário .....✍️"></textarea>
+         </center>
+         </section>
             
              <footer><!-- Esse comando cria um rodapé para o site, nele conterá os direitos autorais e também os links para as redes sociais da empresa-->
                 <p><b>&copy Outubro/2024 Produzido por João Carlos Gabriel. Todos os direitos reservados. </b></p><!-- Direitos autorais-->
